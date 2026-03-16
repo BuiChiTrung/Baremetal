@@ -1,0 +1,240 @@
+!SESSION 2025-08-16 15:58:44.531 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Framework arguments:  -keyring /Users/straw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/straw/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-08-16 15:59:29.969
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-08-16 15:59:29.975
+!MESSAGE Log4j2 initialized with config file /Users/straw/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2025-08-16 15:59:44.565
+!MESSAGE ProjectImporter: mdfind -name lsregister didn't returned anything
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-08-16 15:59:44.941
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-16 17:29:49.599
+!MESSAGE Indexed 'FirstProject' (3 sources, 53 headers) in 4.55 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-09-06 17:04:55.479 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Framework arguments:  -keyring /Users/straw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/straw/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-06 17:05:15.948
+!MESSAGE Log4j2 initialized with config file /Users/straw/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-06 17:05:26.048
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-06 17:05:31.908
+!MESSAGE ProjectImporter: already registered
+!SESSION 2025-09-07 14:30:11.822 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Framework arguments:  -keyring /Users/straw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/straw/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-07 14:30:25.821
+!MESSAGE Log4j2 initialized with config file /Users/straw/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-07 14:30:36.677
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-07 15:23:42.960
+!MESSAGE Indexed 'RegisterManipulationLED' (20 sources, 82 headers) in 6.27 sec: 4,801 declarations; 22,954 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-07 15:32:00.545
+!MESSAGE Indexed 'RegisterManipulationLED' (20 sources, 82 headers) in 2.43 sec: 4,801 declarations; 22,954 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)
+!SESSION 2025-09-11 20:50:02.853 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Framework arguments:  -keyring /Users/straw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/straw/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-11 20:50:21.747
+!MESSAGE Log4j2 initialized with config file /Users/straw/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-11 20:50:35.129
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-12 09:29:33.340
+!MESSAGE Indexed 'ManipulateLED' (20 sources, 82 headers) in 6.95 sec: 4,801 declarations; 22,954 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)
+!SESSION 2025-09-15 14:20:35.105 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Framework arguments:  -keyring /Users/straw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/straw/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-15 14:20:48.598
+!MESSAGE Log4j2 initialized with config file /Users/straw/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-15 14:21:00.219
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-03-07 07:56:13.902 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Framework arguments:  -keyring /Users/straw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/straw/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-07 07:56:32.081
+!MESSAGE Log4j2 initialized with config file /Users/straw/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-07 07:56:46.971
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-03-07 09:02:44.009
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$39 RUNNING
+	 at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	 at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	 at java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+	 at java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	 at java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	 at java.base/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+	 at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+	 at com.teamdev.jxbrowser.browser.internal.BrowserWidgetThread.execute(BrowserWidgetThread.java:54)
+	 at com.teamdev.jxbrowser.browser.internal.BrowserWidget.execute(BrowserWidget.java:198)
+	 at com.teamdev.jxbrowser.browser.internal.BrowserWidget.accessibilityToken(BrowserWidget.java:367)
+	 at com.teamdev.jxbrowser.view.internal.mac.NsAccessibility.add(NsAccessibility.java:56)
+	 at com.teamdev.jxbrowser.view.swing.internal.Graphics2dRenderWidget.lambda$showRenderWidget$7(Graphics2dRenderWidget.java:85)
+	 at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	 at com.teamdev.jxbrowser.view.swing.internal.Graphics2dRenderWidget.showRenderWidget(Graphics2dRenderWidget.java:85)
+	 at com.teamdev.jxbrowser.view.swing.internal.OffScreenRenderWidget.addNotify(OffScreenRenderWidget.java:233)
+	 at java.desktop/java.awt.Container.addNotify(Container.java:2804)
+	 at java.desktop/javax.swing.JComponent.addNotify(JComponent.java:4846)
+	 at java.desktop/java.awt.Container.addNotify(Container.java:2804)
+	 at java.desktop/javax.swing.JComponent.addNotify(JComponent.java:4846)
+	 at java.desktop/java.awt.Container.addNotify(Container.java:2804)
+	 at java.desktop/javax.swing.JComponent.addNotify(JComponent.java:4846)
+	 at java.desktop/java.awt.Container.addNotify(Container.java:2804)
+	 at java.desktop/javax.swing.JComponent.addNotify(JComponent.java:4846)
+	 at java.desktop/javax.swing.JRootPane.addNotify(JRootPane.java:721)
+	 at java.desktop/java.awt.Container.addNotify(Container.java:2804)
+	 at java.desktop/java.awt.Window.addNotify(Window.java:791)
+	 at java.desktop/java.awt.Dialog.addNotify(Dialog.java:769)
+	 at java.desktop/java.awt.Window.pack(Window.java:829)
+	 at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:199)
+	 at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	 at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	 at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	 at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	 at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	 at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	 at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	 at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-03-07 15:16:04.587 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Framework arguments:  -keyring /Users/straw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/straw/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-07 15:16:21.624
+!MESSAGE Log4j2 initialized with config file /Users/straw/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-07 15:16:34.026
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.ide 4 4 2026-03-07 15:35:12.632
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2026-03-07 15:35:12.652
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-03-07 15:35:12.652
+!MESSAGE The project description file (.project) for 'FirstProject' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-03-07 15:35:13.209
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2026-03-07 15:35:15.211 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Framework arguments:  -keyring /Users/straw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/straw/.eclipse_keyring -data /Users/straw/STM32CubeIDE/workspace_1.19.0
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-03-07 15:35:20.469
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-07 15:35:25.536
+!MESSAGE Log4j2 initialized with config file /Users/straw/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-07 15:35:37.165
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-07 15:38:51.793
+!MESSAGE Indexed '2_ManipulateLED' (21 sources, 64 headers) in 8.2 sec: 7,094 declarations; 15,368 references; 33 unresolved inclusions; 666 syntax errors; 9,599 unresolved names (30%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-03-07 15:39:50.829
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2026-03-07 15:40:20.437
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2026-03-07 15:42:56.869
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 4 0 2026-03-07 15:43:03.022
+!MESSAGE Launch attempt in non existent working directory "/Users/straw/STM32CubeIDE/workspace_1.19.0/2_ManipulateLED"
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.core.CCorePlugin.logStackTrace(CCorePlugin.java:1556)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:184)
+	at org.eclipse.cdt.core.CommandLauncherManager$CommandLauncherWrapper.execute(CommandLauncherManager.java:146)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.core.ExternalBuildRunner.invokeExternalBuild(ExternalBuildRunner.java:140)
+	at org.eclipse.cdt.managedbuilder.core.ExternalBuildRunner.invokeBuild(ExternalBuildRunner.java:73)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performExternalClean(CommonBuilder.java:1179)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.clean(CommonBuilder.java:1110)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.clean(CommonBuilder.java:1079)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1080)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:595)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:491)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:288)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2026-03-07 15:43:05.368
+!MESSAGE Project is null
+!SESSION 2026-03-16 07:09:28.322 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Framework arguments:  -keyring /Users/straw/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/straw/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-16 07:09:44.069
+!MESSAGE Log4j2 initialized with config file /Users/straw/STM32CubeIDE/workspace_1.19.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-16 07:09:56.030
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-16 07:14:01.166
+!MESSAGE Indexed '5_Makefiles' (20 sources, 82 headers) in 9.98 sec: 4,801 declarations; 22,954 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)

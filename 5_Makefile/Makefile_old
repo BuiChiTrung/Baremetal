@@ -1,0 +1,21 @@
+final: 5_Makefile.elf
+
+# Create elf using all obj files and .map file named shows where each part of 
+# the code and data is loaded in memory, useful for debugging.
+5_Makefile.elf: main.o startup.o
+	arm-none-eabi-gcc -nostdlib -T stm32_ls.ld *.o -o 5_Makefile.elf -Wl,-Map=5_Makefile.map
+
+main.o: main.c
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -c main.c -o main.o
+
+startup.o: stm32f411_startup.c
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -c stm32f411_startup.c -o startup.o
+
+# executes OpenOCD, using a configuration file tailored for the 
+# STM32 Nucleo F4 board, specifically st_nucleo_f4.cfg
+load: 
+	openocd -f /Users/straw/xpack-openocd-0.12.0-6/openocd/scripts/board/st_nucleo_f4.cfg
+
+clean:
+	rm -f *.o *.elf *.map
+

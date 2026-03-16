@@ -1,0 +1,4 @@
+15:43:03 **** Clean-only build of configuration Default for project 2_ManipulateLED ****
+make clean 
+make: *** No rule to make target `clean'.  Stop.
+"make clean" terminated with exit code 2. Build might be incomplete.
