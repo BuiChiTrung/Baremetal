@@ -238,3 +238,11 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/straw
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-03-16 07:14:01.166
 !MESSAGE Indexed '5_Makefiles' (20 sources, 82 headers) in 9.98 sec: 4,801 declarations; 22,954 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)
+
+!ENTRY org.eclipse.core.resources 2 2 2026-03-17 07:53:01.292
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-03-17 07:53:01.293
+!MESSAGE The project description file (.project) for '2_ManipulateLED' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2026-03-17 07:56:16.048
+!MESSAGE Project is null

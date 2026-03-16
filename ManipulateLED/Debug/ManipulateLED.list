@@ -93,7 +93,7 @@ void turn_led_on() {
  80001e0:	4a02      	ldr	r2, [pc, #8]	@ (80001ec <turn_led_on+0x14>)
  80001e2:	f043 0320 	orr.w	r3, r3, #32
  80001e6:	6013      	str	r3, [r2, #0]
-  while (1)
+  while (1) {
  80001e8:	bf00      	nop
  80001ea:	e7fd      	b.n	80001e8 <turn_led_on+0x10>
  80001ec:	40020014 	.word	0x40020014
