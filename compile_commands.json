@@ -1,0 +1,177 @@
+[
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Debug",
+    "command": "arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MFStartup/startup_stm32f411retx.d -MTStartup/startup_stm32f411retx.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Startup/startup_stm32f411retx.o /Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Startup/startup_stm32f411retx.s",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Startup/startup_stm32f411retx.s"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Src/main.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/main.d -MTSrc/main.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/main.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Src/main.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Src/syscalls.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/syscalls.d -MTSrc/syscalls.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/syscalls.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Src/syscalls.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Src/sysmem.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/sysmem.d -MTSrc/sysmem.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/sysmem.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/6_CMSIS_Header_files/Src/sysmem.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Debug",
+    "command": "arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MFStartup/startup_stm32f411retx.d -MTStartup/startup_stm32f411retx.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Startup/startup_stm32f411retx.o /Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Startup/startup_stm32f411retx.s",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Startup/startup_stm32f411retx.s"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Src/gpio.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/gpio.d -MTSrc/gpio.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/gpio.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Src/gpio.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Src/main.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/main.d -MTSrc/main.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/main.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Src/main.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Src/syscalls.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/syscalls.d -MTSrc/syscalls.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/syscalls.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Src/syscalls.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Src/sysmem.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/sysmem.d -MTSrc/sysmem.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/sysmem.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/7_GPIO_Input_Output/Src/sysmem.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Debug",
+    "command": "arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MFStartup/startup_stm32f411retx.d -MTStartup/startup_stm32f411retx.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Startup/startup_stm32f411retx.o /Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Startup/startup_stm32f411retx.s",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Startup/startup_stm32f411retx.s"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Src/gpio.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/gpio.d -MTSrc/gpio.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/gpio.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Src/gpio.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Src/main.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/main.d -MTSrc/main.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/main.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Src/main.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Src/syscalls.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/syscalls.d -MTSrc/syscalls.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/syscalls.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Src/syscalls.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Src/sysmem.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/sysmem.d -MTSrc/sysmem.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/sysmem.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/8_Systick/Src/sysmem.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d -MTDrivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MFCore/Startup/startup_stm32f411retx.d -MTCore/Startup/startup_stm32f411retx.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Core/Startup/startup_stm32f411retx.o /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Startup/startup_stm32f411retx.s",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Startup/startup_stm32f411retx.s"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/main.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFCore/Src/main.d -MTCore/Src/main.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Core/Src/main.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/main.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/stm32f4xx_hal_msp.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFCore/Src/stm32f4xx_hal_msp.d -MTCore/Src/stm32f4xx_hal_msp.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Core/Src/stm32f4xx_hal_msp.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/stm32f4xx_hal_msp.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/stm32f4xx_it.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFCore/Src/stm32f4xx_it.d -MTCore/Src/stm32f4xx_it.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Core/Src/stm32f4xx_it.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/stm32f4xx_it.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/syscalls.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFCore/Src/syscalls.d -MTCore/Src/syscalls.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Core/Src/syscalls.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/syscalls.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/sysmem.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFCore/Src/sysmem.d -MTCore/Src/sysmem.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Core/Src/sysmem.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/sysmem.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/system_stm32f4xx.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFCore/Src/system_stm32f4xx.d -MTCore/Src/system_stm32f4xx.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Core/Src/system_stm32f4xx.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/system_stm32f4xx.c"
+  }
+]
