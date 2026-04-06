@@ -77,7 +77,7 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 # Other Targets
 clean:
 	-$(RM) 9_TIM2.elf 9_TIM2.list 9_TIM2.map default.size.stdout
-	-@echo ' asasdasdasdfadf'
+	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
 

@@ -77,7 +77,7 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 # Other Targets
 clean:
 	-$(RM) 8_System_timer.elf 8_System_timer.list 8_System_timer.map default.size.stdout
-	-@echo ' asasdasdasdfadf'
+	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
 
