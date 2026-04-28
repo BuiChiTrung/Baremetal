@@ -33,34 +33,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := 14_EXTI
+BUILD_ARTIFACT_NAME := 10_UASRT2
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-14_EXTI.elf \
+10_UASRT2.elf \
 
 MAP_FILES += \
-14_EXTI.map \
+10_UASRT2.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-14_EXTI.list \
+10_UASRT2.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: 14_EXTI.elf secondary-outputs
+main-build: 10_UASRT2.elf secondary-outputs
 
 # Tool invocations
-14_EXTI.elf 14_EXTI.map: $(OBJS) $(USER_OBJS) /Users/straw/STM32CubeIDE/workspace_1.19.0/14_EXTI/STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "14_EXTI.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/straw/STM32CubeIDE/workspace_1.19.0/14_EXTI/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="14_EXTI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+10_UASRT2.elf 10_UASRT2.map: $(OBJS) $(USER_OBJS) /Users/straw/STM32CubeIDE/workspace_1.19.0/10_UASRT2/STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "10_UASRT2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/straw/STM32CubeIDE/workspace_1.19.0/10_UASRT2/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="10_UASRT2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -69,14 +69,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-14_EXTI.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "14_EXTI.list"
+10_UASRT2.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "10_UASRT2.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) 14_EXTI.elf 14_EXTI.list 14_EXTI.map default.size.stdout
+	-$(RM) 10_UASRT2.elf 10_UASRT2.list 10_UASRT2.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

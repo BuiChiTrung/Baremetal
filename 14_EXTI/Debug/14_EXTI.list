@@ -27,25 +27,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  0000205c  2**0
                   CONTENTS, READONLY
- 12 .debug_info   000017bc  00000000  00000000  0000208c  2**0
+ 12 .debug_info   000017ba  00000000  00000000  0000208c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 00000713  00000000  00000000  00003848  2**0
+ 13 .debug_abbrev 00000714  00000000  00000000  00003846  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  14 .debug_aranges 000001a8  00000000  00000000  00003f60  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  15 .debug_rnglists 0000011c  00000000  00000000  00004108  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  0000fd00  00000000  00000000  00004224  2**0
+ 16 .debug_macro  0000fc4b  00000000  00000000  00004224  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00002495  00000000  00000000  00013f24  2**0
+ 17 .debug_line   00002477  00000000  00000000  00013e6f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00055f91  00000000  00000000  000163b9  2**0
+ 18 .debug_str    00055870  00000000  00000000  000162e6  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  0006c34a  2**0
+ 19 .comment      00000043  00000000  00000000  0006bb56  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00000b28  00000000  00000000  0006c390  2**2
+ 20 .debug_frame  00000b28  00000000  00000000  0006bb9c  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 0000005c  00000000  00000000  0006ceb8  2**0
+ 21 .debug_line_str 0000005c  00000000  00000000  0006c6c4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -156,8 +156,11 @@ __STATIC_FORCEINLINE void __disable_irq(void)
  8000238:	4a12      	ldr	r2, [pc, #72]	@ (8000284 <pc13_exti_init+0x70>)
  800023a:	f023 6300 	bic.w	r3, r3, #134217728	@ 0x8000000
  800023e:	6013      	str	r3, [r2, #0]
-
-  // Enable clock access to SYSCFG
+  // System Configuration Controller (SYSCFG) is an on-chip hardware module
+  // (specifically a peripheral) in the STM32F411xC/E microcontroller
+  // It is primarily responsible for managing low-level system-wide
+  // configurations that allow the processor to interact correctly with memory
+  // and external pins
   RCC->APB2ENR |= RCC_APB2ENR_SYSCFGEN;
  8000240:	4b0f      	ldr	r3, [pc, #60]	@ (8000280 <pc13_exti_init+0x6c>)
  8000242:	6c5b      	ldr	r3, [r3, #68]	@ 0x44
@@ -181,7 +184,10 @@ __STATIC_FORCEINLINE void __disable_irq(void)
  800025e:	f443 5300 	orr.w	r3, r3, #8192	@ 0x2000
  8000262:	6013      	str	r3, [r2, #0]
 
-  // Trigger IRQ on line 13 when the signal is falling edge
+  // Note: the button pin (PC13) on your board reads high when not pressed.
+  // Trigger IRQ on line 13 when the signal is
+  // Rising edge: button is released (0V to 3.3V)
+  // Falling edge: button is pressed (3.3V to 0V) => choose this
   EXTI->FTSR |= LINE13;
  8000264:	4b09      	ldr	r3, [pc, #36]	@ (800028c <pc13_exti_init+0x78>)
  8000266:	68db      	ldr	r3, [r3, #12]
@@ -199,8 +205,9 @@ __STATIC_FORCEINLINE void __disable_irq(void)
 }
  8000278:	bf00      	nop
 
-  /*Enable global interrupts*/
+  // Enable global interrupts
   __enable_irq();
+}
  800027a:	bf00      	nop
  800027c:	bd80      	pop	{r7, pc}
  800027e:	bf00      	nop
@@ -289,6 +296,8 @@ int __io_putchar(int ch) {
 
 08000304 <EXTI15_10_IRQHandler>:
 
+// The handler name must be exactly the same as the one defined in the startup
+// file startup_stm32f411retx.s
 void EXTI15_10_IRQHandler(void) {
  8000304:	b580      	push	{r7, lr}
  8000306:	af00      	add	r7, sp, #0

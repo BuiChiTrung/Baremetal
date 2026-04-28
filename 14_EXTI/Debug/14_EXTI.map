@@ -80,7 +80,6 @@ Discarded input sections
  .group         0x00000000        0xc ./Src/exti.o
  .group         0x00000000        0xc ./Src/exti.o
  .group         0x00000000        0xc ./Src/exti.o
- .group         0x00000000        0xc ./Src/exti.o
  .text          0x00000000        0x0 ./Src/exti.o
  .data          0x00000000        0x0 ./Src/exti.o
  .bss           0x00000000        0x0 ./Src/exti.o
@@ -154,12 +153,10 @@ Discarded input sections
  .group         0x00000000        0xc ./Src/main.o
  .group         0x00000000        0xc ./Src/main.o
  .group         0x00000000        0xc ./Src/main.o
- .group         0x00000000        0xc ./Src/main.o
  .text          0x00000000        0x0 ./Src/main.o
  .data          0x00000000        0x0 ./Src/main.o
  .bss           0x00000000        0x0 ./Src/main.o
  .debug_macro   0x00000000      0xaea ./Src/main.o
- .debug_macro   0x00000000       0x28 ./Src/main.o
  .debug_macro   0x00000000       0x28 ./Src/main.o
  .debug_macro   0x00000000       0x22 ./Src/main.o
  .debug_macro   0x00000000       0x8e ./Src/main.o
@@ -173,7 +170,7 @@ Discarded input sections
  .debug_macro   0x00000000     0x1011 ./Src/main.o
  .debug_macro   0x00000000      0x11f ./Src/main.o
  .debug_macro   0x00000000     0xb953 ./Src/main.o
- .debug_macro   0x00000000       0x6d ./Src/main.o
+ .debug_macro   0x00000000       0x10 ./Src/main.o
  .debug_macro   0x00000000       0x22 ./Src/main.o
  .group         0x00000000        0xc ./Src/syscalls.o
  .group         0x00000000        0xc ./Src/syscalls.o
@@ -967,23 +964,23 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.macos64_1.0.0.202411102158/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.macos64_1.0.0.202411102158/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/libgcc.a
 
-.debug_info     0x00000000     0x17bc
+.debug_info     0x00000000     0x17ba
  .debug_info    0x00000000      0x747 ./Src/exti.o
  .debug_info    0x00000747      0x306 ./Src/gpio.o
- .debug_info    0x00000a4d      0x178 ./Src/main.o
- .debug_info    0x00000bc5      0x6a3 ./Src/syscalls.o
- .debug_info    0x00001268      0x168 ./Src/sysmem.o
- .debug_info    0x000013d0      0x3bc ./Src/uart.o
- .debug_info    0x0000178c       0x30 ./Startup/startup_stm32f411retx.o
+ .debug_info    0x00000a4d      0x176 ./Src/main.o
+ .debug_info    0x00000bc3      0x6a3 ./Src/syscalls.o
+ .debug_info    0x00001266      0x168 ./Src/sysmem.o
+ .debug_info    0x000013ce      0x3bc ./Src/uart.o
+ .debug_info    0x0000178a       0x30 ./Startup/startup_stm32f411retx.o
 
-.debug_abbrev   0x00000000      0x713
+.debug_abbrev   0x00000000      0x714
  .debug_abbrev  0x00000000      0x19a ./Src/exti.o
  .debug_abbrev  0x0000019a       0xb5 ./Src/gpio.o
- .debug_abbrev  0x0000024f      0x121 ./Src/main.o
- .debug_abbrev  0x00000370      0x1b6 ./Src/syscalls.o
- .debug_abbrev  0x00000526       0xbc ./Src/sysmem.o
- .debug_abbrev  0x000005e2      0x10d ./Src/uart.o
- .debug_abbrev  0x000006ef       0x24 ./Startup/startup_stm32f411retx.o
+ .debug_abbrev  0x0000024f      0x122 ./Src/main.o
+ .debug_abbrev  0x00000371      0x1b6 ./Src/syscalls.o
+ .debug_abbrev  0x00000527       0xbc ./Src/sysmem.o
+ .debug_abbrev  0x000005e3      0x10d ./Src/uart.o
+ .debug_abbrev  0x000006f0       0x24 ./Startup/startup_stm32f411retx.o
 
 .debug_aranges  0x00000000      0x1a8
  .debug_aranges
@@ -1018,99 +1015,98 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_rnglists
                 0x00000103       0x19 ./Startup/startup_stm32f411retx.o
 
-.debug_macro    0x00000000     0xfd00
- .debug_macro   0x00000000       0xe2 ./Src/exti.o
- .debug_macro   0x000000e2      0xaea ./Src/exti.o
- .debug_macro   0x00000bcc       0x28 ./Src/exti.o
- .debug_macro   0x00000bf4       0x28 ./Src/exti.o
- .debug_macro   0x00000c1c       0x22 ./Src/exti.o
- .debug_macro   0x00000c3e       0x8e ./Src/exti.o
- .debug_macro   0x00000ccc       0x51 ./Src/exti.o
- .debug_macro   0x00000d1d      0x103 ./Src/exti.o
- .debug_macro   0x00000e20       0x6a ./Src/exti.o
- .debug_macro   0x00000e8a      0x1df ./Src/exti.o
- .debug_macro   0x00001069       0x1c ./Src/exti.o
- .debug_macro   0x00001085       0x22 ./Src/exti.o
- .debug_macro   0x000010a7       0xfb ./Src/exti.o
- .debug_macro   0x000011a2     0x1011 ./Src/exti.o
- .debug_macro   0x000021b3      0x11f ./Src/exti.o
- .debug_macro   0x000022d2     0xb953 ./Src/exti.o
- .debug_macro   0x0000dc25       0x6d ./Src/exti.o
- .debug_macro   0x0000dc92       0xe4 ./Src/gpio.o
- .debug_macro   0x0000dd76       0x22 ./Src/gpio.o
- .debug_macro   0x0000dd98      0x1d8 ./Src/main.o
- .debug_macro   0x0000df70       0x61 ./Src/main.o
- .debug_macro   0x0000dfd1       0x2a ./Src/main.o
- .debug_macro   0x0000dffb       0x43 ./Src/main.o
- .debug_macro   0x0000e03e       0x34 ./Src/main.o
- .debug_macro   0x0000e072       0x16 ./Src/main.o
- .debug_macro   0x0000e088       0x9e ./Src/main.o
- .debug_macro   0x0000e126      0x370 ./Src/main.o
- .debug_macro   0x0000e496      0x112 ./Src/main.o
- .debug_macro   0x0000e5a8       0x10 ./Src/main.o
- .debug_macro   0x0000e5b8       0x16 ./Src/main.o
- .debug_macro   0x0000e5ce       0x4a ./Src/main.o
- .debug_macro   0x0000e618       0x34 ./Src/main.o
- .debug_macro   0x0000e64c       0x10 ./Src/main.o
- .debug_macro   0x0000e65c       0x58 ./Src/main.o
- .debug_macro   0x0000e6b4       0x8e ./Src/main.o
- .debug_macro   0x0000e742       0x1c ./Src/main.o
- .debug_macro   0x0000e75e      0x185 ./Src/main.o
- .debug_macro   0x0000e8e3       0x16 ./Src/main.o
- .debug_macro   0x0000e8f9       0x16 ./Src/main.o
- .debug_macro   0x0000e90f      0x146 ./Src/main.o
- .debug_macro   0x0000ea55      0x274 ./Src/syscalls.o
- .debug_macro   0x0000ecc9       0x5b ./Src/syscalls.o
- .debug_macro   0x0000ed24       0x94 ./Src/syscalls.o
- .debug_macro   0x0000edb8       0x57 ./Src/syscalls.o
- .debug_macro   0x0000ee0f      0x190 ./Src/syscalls.o
- .debug_macro   0x0000ef9f       0x10 ./Src/syscalls.o
- .debug_macro   0x0000efaf       0x3c ./Src/syscalls.o
- .debug_macro   0x0000efeb       0x10 ./Src/syscalls.o
- .debug_macro   0x0000effb       0x10 ./Src/syscalls.o
- .debug_macro   0x0000f00b       0x10 ./Src/syscalls.o
- .debug_macro   0x0000f01b       0x1c ./Src/syscalls.o
- .debug_macro   0x0000f037       0x52 ./Src/syscalls.o
- .debug_macro   0x0000f089       0x22 ./Src/syscalls.o
- .debug_macro   0x0000f0ab       0x10 ./Src/syscalls.o
- .debug_macro   0x0000f0bb       0x52 ./Src/syscalls.o
- .debug_macro   0x0000f10d       0xcf ./Src/syscalls.o
- .debug_macro   0x0000f1dc       0x1c ./Src/syscalls.o
- .debug_macro   0x0000f1f8       0x3d ./Src/syscalls.o
- .debug_macro   0x0000f235       0x35 ./Src/syscalls.o
- .debug_macro   0x0000f26a      0x12c ./Src/syscalls.o
- .debug_macro   0x0000f396       0x16 ./Src/syscalls.o
- .debug_macro   0x0000f3ac       0x16 ./Src/syscalls.o
- .debug_macro   0x0000f3c2       0x29 ./Src/syscalls.o
- .debug_macro   0x0000f3eb       0x10 ./Src/syscalls.o
- .debug_macro   0x0000f3fb      0x242 ./Src/syscalls.o
- .debug_macro   0x0000f63d       0x1c ./Src/syscalls.o
- .debug_macro   0x0000f659       0x10 ./Src/syscalls.o
- .debug_macro   0x0000f669      0x18a ./Src/syscalls.o
- .debug_macro   0x0000f7f3       0x16 ./Src/syscalls.o
- .debug_macro   0x0000f809       0xce ./Src/syscalls.o
- .debug_macro   0x0000f8d7      0x112 ./Src/sysmem.o
- .debug_macro   0x0000f9e9      0x23c ./Src/sysmem.o
- .debug_macro   0x0000fc25       0xdb ./Src/uart.o
+.debug_macro    0x00000000     0xfc4b
+ .debug_macro   0x00000000       0xc8 ./Src/exti.o
+ .debug_macro   0x000000c8      0xaea ./Src/exti.o
+ .debug_macro   0x00000bb2       0x10 ./Src/exti.o
+ .debug_macro   0x00000bc2       0x28 ./Src/exti.o
+ .debug_macro   0x00000bea       0x22 ./Src/exti.o
+ .debug_macro   0x00000c0c       0x8e ./Src/exti.o
+ .debug_macro   0x00000c9a       0x51 ./Src/exti.o
+ .debug_macro   0x00000ceb      0x103 ./Src/exti.o
+ .debug_macro   0x00000dee       0x6a ./Src/exti.o
+ .debug_macro   0x00000e58      0x1df ./Src/exti.o
+ .debug_macro   0x00001037       0x1c ./Src/exti.o
+ .debug_macro   0x00001053       0x22 ./Src/exti.o
+ .debug_macro   0x00001075       0xfb ./Src/exti.o
+ .debug_macro   0x00001170     0x1011 ./Src/exti.o
+ .debug_macro   0x00002181      0x11f ./Src/exti.o
+ .debug_macro   0x000022a0     0xb953 ./Src/exti.o
+ .debug_macro   0x0000dbf3       0xe4 ./Src/gpio.o
+ .debug_macro   0x0000dcd7       0x22 ./Src/gpio.o
+ .debug_macro   0x0000dcf9      0x1c2 ./Src/main.o
+ .debug_macro   0x0000debb       0x61 ./Src/main.o
+ .debug_macro   0x0000df1c       0x2a ./Src/main.o
+ .debug_macro   0x0000df46       0x43 ./Src/main.o
+ .debug_macro   0x0000df89       0x34 ./Src/main.o
+ .debug_macro   0x0000dfbd       0x16 ./Src/main.o
+ .debug_macro   0x0000dfd3       0x9e ./Src/main.o
+ .debug_macro   0x0000e071      0x370 ./Src/main.o
+ .debug_macro   0x0000e3e1      0x112 ./Src/main.o
+ .debug_macro   0x0000e4f3       0x10 ./Src/main.o
+ .debug_macro   0x0000e503       0x16 ./Src/main.o
+ .debug_macro   0x0000e519       0x4a ./Src/main.o
+ .debug_macro   0x0000e563       0x34 ./Src/main.o
+ .debug_macro   0x0000e597       0x10 ./Src/main.o
+ .debug_macro   0x0000e5a7       0x58 ./Src/main.o
+ .debug_macro   0x0000e5ff       0x8e ./Src/main.o
+ .debug_macro   0x0000e68d       0x1c ./Src/main.o
+ .debug_macro   0x0000e6a9      0x185 ./Src/main.o
+ .debug_macro   0x0000e82e       0x16 ./Src/main.o
+ .debug_macro   0x0000e844       0x16 ./Src/main.o
+ .debug_macro   0x0000e85a      0x146 ./Src/main.o
+ .debug_macro   0x0000e9a0      0x274 ./Src/syscalls.o
+ .debug_macro   0x0000ec14       0x5b ./Src/syscalls.o
+ .debug_macro   0x0000ec6f       0x94 ./Src/syscalls.o
+ .debug_macro   0x0000ed03       0x57 ./Src/syscalls.o
+ .debug_macro   0x0000ed5a      0x190 ./Src/syscalls.o
+ .debug_macro   0x0000eeea       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000eefa       0x3c ./Src/syscalls.o
+ .debug_macro   0x0000ef36       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000ef46       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000ef56       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000ef66       0x1c ./Src/syscalls.o
+ .debug_macro   0x0000ef82       0x52 ./Src/syscalls.o
+ .debug_macro   0x0000efd4       0x22 ./Src/syscalls.o
+ .debug_macro   0x0000eff6       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000f006       0x52 ./Src/syscalls.o
+ .debug_macro   0x0000f058       0xcf ./Src/syscalls.o
+ .debug_macro   0x0000f127       0x1c ./Src/syscalls.o
+ .debug_macro   0x0000f143       0x3d ./Src/syscalls.o
+ .debug_macro   0x0000f180       0x35 ./Src/syscalls.o
+ .debug_macro   0x0000f1b5      0x12c ./Src/syscalls.o
+ .debug_macro   0x0000f2e1       0x16 ./Src/syscalls.o
+ .debug_macro   0x0000f2f7       0x16 ./Src/syscalls.o
+ .debug_macro   0x0000f30d       0x29 ./Src/syscalls.o
+ .debug_macro   0x0000f336       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000f346      0x242 ./Src/syscalls.o
+ .debug_macro   0x0000f588       0x1c ./Src/syscalls.o
+ .debug_macro   0x0000f5a4       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000f5b4      0x18a ./Src/syscalls.o
+ .debug_macro   0x0000f73e       0x16 ./Src/syscalls.o
+ .debug_macro   0x0000f754       0xce ./Src/syscalls.o
+ .debug_macro   0x0000f822      0x112 ./Src/sysmem.o
+ .debug_macro   0x0000f934      0x23c ./Src/sysmem.o
+ .debug_macro   0x0000fb70       0xdb ./Src/uart.o
 
-.debug_line     0x00000000     0x2495
- .debug_line    0x00000000      0x55f ./Src/exti.o
- .debug_line    0x0000055f      0x52e ./Src/gpio.o
- .debug_line    0x00000a8d      0x6a6 ./Src/main.o
- .debug_line    0x00001133      0x840 ./Src/syscalls.o
- .debug_line    0x00001973      0x51c ./Src/sysmem.o
- .debug_line    0x00001e8f      0x58b ./Src/uart.o
- .debug_line    0x0000241a       0x7b ./Startup/startup_stm32f411retx.o
+.debug_line     0x00000000     0x2477
+ .debug_line    0x00000000      0x550 ./Src/exti.o
+ .debug_line    0x00000550      0x52e ./Src/gpio.o
+ .debug_line    0x00000a7e      0x697 ./Src/main.o
+ .debug_line    0x00001115      0x840 ./Src/syscalls.o
+ .debug_line    0x00001955      0x51c ./Src/sysmem.o
+ .debug_line    0x00001e71      0x58b ./Src/uart.o
+ .debug_line    0x000023fc       0x7b ./Startup/startup_stm32f411retx.o
 
-.debug_str      0x00000000    0x55f91
- .debug_str     0x00000000    0x55f91 ./Src/exti.o
-                              0x503a3 (size before relaxing)
- .debug_str     0x00055f91    0x4f899 ./Src/gpio.o
- .debug_str     0x00055f91    0x539e3 ./Src/main.o
- .debug_str     0x00055f91     0x99f9 ./Src/syscalls.o
- .debug_str     0x00055f91     0x7797 ./Src/sysmem.o
- .debug_str     0x00055f91    0x4f891 ./Src/uart.o
- .debug_str     0x00055f91       0x78 ./Startup/startup_stm32f411retx.o
+.debug_str      0x00000000    0x55870
+ .debug_str     0x00000000    0x55870 ./Src/exti.o
+                              0x4fc82 (size before relaxing)
+ .debug_str     0x00055870    0x4f899 ./Src/gpio.o
+ .debug_str     0x00055870    0x532c2 ./Src/main.o
+ .debug_str     0x00055870     0x99f9 ./Src/syscalls.o
+ .debug_str     0x00055870     0x7797 ./Src/sysmem.o
+ .debug_str     0x00055870    0x4f891 ./Src/uart.o
+ .debug_str     0x00055870       0x78 ./Startup/startup_stm32f411retx.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Src/exti.o

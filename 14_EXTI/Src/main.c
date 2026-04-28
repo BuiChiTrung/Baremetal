@@ -6,11 +6,6 @@
 
 #include <stdio.h>
 
-int __io_putchar(int ch) {
-  uart_write(ch);
-  return ch;
-}
-
 // The handler name must be exactly the same as the one defined in the startup
 // file startup_stm32f411retx.s
 void EXTI15_10_IRQHandler(void) {
