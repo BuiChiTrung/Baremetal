@@ -1,5 +1,7 @@
 #include "adxl345.h"
 
+#include <stdio.h>
+
 /********PINOUT********/
 
 /*   STM32    ------ ADXL345*/
@@ -12,25 +14,23 @@
  * 5V+        ------ VCC
  * */
 void adxl_read(uint8_t address, uint8_t *rxdata) {
-  // Set the read operation bit in the address byte
+
+  /*Set read operation*/
   address |= ADXL345_READ_OPERATION;
 
-  // Set the multi-byte read enable bit to read multiple consecutive registers
+  /*Enable multi-byte*/
   address |= ADXL345_MULTI_BYTE_ENABLE;
 
-  // Pull CS (chip select) line low to activate the slave device
+  /*Pull cs line low to enable slave*/
   cs_enable();
 
-  // This transmits the address (with read and multi-byte bits set) to the
-  // ADXL345
-  // ???? how adxl can handle when receiving this
-  // Send pointer as spi1_transmit expects a pointer to read an array
+  /*Send address*/
   spi1_transmit(&address, 1);
 
-  // Read 6 bytes of data from the accelerometer (X, Y, Z axes - 2 bytes each)
+  /*Read 6 bytes */
   spi1_receive(rxdata, 6);
 
-  // Pull CS line high to deactivate the slave device and end the transaction
+  /*Pull cs line high to disable slave*/
   cs_disable();
 }
 
@@ -61,11 +61,24 @@ void adxl_init(void) {
   spi1_config();
 
   /*Set data format range to +-4g*/
+  printf("Start set data format\r\n");
   adxl_write(ADXL345_REG_DATA_FORMAT, ADXL345_RANGE_4G);
+  printf("Finish set data format\r\n");
 
   /*Reset all bits*/
   adxl_write(ADXL345_REG_POWER_CTL, ADXL345_RESET);
+  printf("Finish reset all bits\r\n");
 
   /*Configure power control measure bit*/
   adxl_write(ADXL345_REG_POWER_CTL, ADXL345_MEASURE_BIT);
+
+  // uint8_t device_id = 0;
+  // /*Check if ADXL345 is connected*/
+  // adxl_read(ADXL345_REG_DEVID, &device_id);
+  // if (device_id != 0xE5) {
+  //   printf("Error: ADXL345 not found! Read ID: 0x%02X\r\n", device_id);
+  //   while (1) {
+  //   }
+  // }
+  // printf("ADXL345 successfully detected!\r\n");
 }

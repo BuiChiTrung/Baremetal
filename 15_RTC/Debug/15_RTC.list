@@ -435,7 +435,7 @@ void rtc_init(void) {
   - GPS: If the device has a GPS module, it receives an extremely accurate time
   signal from satellites.
   */
-  rtc_time_config(TIME_FORMAT_PM, 0x08, 0x02, 0X55);
+  rtc_time_config(TIME_FORMAT_PM, 0x08, 0x02, 0x55);
  8000446:	2355      	movs	r3, #85	@ 0x55
  8000448:	2202      	movs	r2, #2
  800044a:	2108      	movs	r1, #8

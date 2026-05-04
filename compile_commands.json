@@ -358,5 +358,45 @@
     "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Debug",
     "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/system_stm32f4xx.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFCore/Src/system_stm32f4xx.d -MTCore/Src/system_stm32f4xx.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Core/Src/system_stm32f4xx.o",
     "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/ManipulateLED/Core/Src/system_stm32f4xx.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Debug",
+    "command": "arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MFStartup/startup_stm32f411retx.d -MTStartup/startup_stm32f411retx.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Startup/startup_stm32f411retx.o /Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Startup/startup_stm32f411retx.s",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Startup/startup_stm32f411retx.s"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/main.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/main.d -MTSrc/main.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/main.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/main.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/syscalls.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/syscalls.d -MTSrc/syscalls.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/syscalls.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/syscalls.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/sysmem.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/sysmem.d -MTSrc/sysmem.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/sysmem.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/sysmem.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/uart.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/uart.d -MTSrc/uart.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/uart.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/uart.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/exti.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/exti.d -MTSrc/exti.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/exti.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/exti.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/gpio.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/gpio.d -MTSrc/gpio.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/gpio.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/gpio.c"
+  },
+  {
+    "directory": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Debug",
+    "command": "arm-none-eabi-gcc /Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/iwdg.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Inc -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Include -I/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/chip_headers/CMSIS/Device/ST/STM32F4xx/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MFSrc/iwdg.d -MTSrc/iwdg.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/iwdg.o",
+    "file": "/Users/straw/STM32CubeIDE/workspace_1.19.0/16_IWDG/Src/iwdg.c"
   }
 ]

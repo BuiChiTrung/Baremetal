@@ -1,4 +1,5 @@
 #include "adxl345.h"
+#include "stm32f4xx.h"
 #include "uart.h"
 #include <stdint.h>
 #include <stdio.h>
@@ -10,11 +11,11 @@ double accel_x_g, accel_y_g, accel_z_g;
 uint8_t data_buffer[6];
 
 int main(void) {
-
   uart_init();
 
   // Initialize the ADXL345 accelerometer
   adxl_init();
+  printf("Finish init ADXL345\r\n");
 
   while (1) {
     // Read accelerometer data starting from the data start register

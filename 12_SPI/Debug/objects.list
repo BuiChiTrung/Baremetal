@@ -1,4 +1,8 @@
+"./Src/adxl345.o"
+"./Src/adxl345_bak.o"
 "./Src/main.o"
+"./Src/spi.o"
+"./Src/spi_bak.o"
 "./Src/syscalls.o"
 "./Src/sysmem.o"
 "./Src/uart.o"

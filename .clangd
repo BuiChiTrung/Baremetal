@@ -1,0 +1,8 @@
+CompileFlags:
+  Add:
+    - "-isystem"
+    - "/Applications/ARM/lib/gcc/arm-none-eabi/10.3.1/include"
+    - "-isystem"
+    - "/Applications/ARM/lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+    - "-isystem"
+    - "/Applications/ARM/arm-none-eabi/include"

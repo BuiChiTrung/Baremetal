@@ -1,0 +1,2 @@
+../Src/iwdg.c:10:6:iwdg_init	8	static
+../Src/iwdg.c:31:16:isIwdg_ready	4	static

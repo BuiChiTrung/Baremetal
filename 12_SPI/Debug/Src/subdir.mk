@@ -5,19 +5,31 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Src/adxl345.c \
+../Src/adxl345_bak.c \
 ../Src/main.c \
+../Src/spi.c \
+../Src/spi_bak.c \
 ../Src/syscalls.c \
 ../Src/sysmem.c \
 ../Src/uart.c 
 
 OBJS += \
+./Src/adxl345.o \
+./Src/adxl345_bak.o \
 ./Src/main.o \
+./Src/spi.o \
+./Src/spi_bak.o \
 ./Src/syscalls.o \
 ./Src/sysmem.o \
 ./Src/uart.o 
 
 C_DEPS += \
+./Src/adxl345.d \
+./Src/adxl345_bak.d \
 ./Src/main.d \
+./Src/spi.d \
+./Src/spi_bak.d \
 ./Src/syscalls.d \
 ./Src/sysmem.d \
 ./Src/uart.d 
@@ -25,12 +37,12 @@ C_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Src/%.o Src/%.su Src/%.cyclo: ../Src/%.c Src/subdir.mk
-	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"/Users/straw/STM32CubeIDE/workspace_1.19.0/14_EXTI/chip_headers/CMSIS/Include" -I"/Users/straw/STM32CubeIDE/workspace_1.19.0/14_EXTI/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"/Users/straw/STM32CubeIDE/workspace_1.19.0/12_SPI/chip_headers/CMSIS/Include" -I"/Users/straw/STM32CubeIDE/workspace_1.19.0/12_SPI/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/uart.cyclo ./Src/uart.d ./Src/uart.o ./Src/uart.su
+	-$(RM) ./Src/adxl345.cyclo ./Src/adxl345.d ./Src/adxl345.o ./Src/adxl345.su ./Src/adxl345_bak.cyclo ./Src/adxl345_bak.d ./Src/adxl345_bak.o ./Src/adxl345_bak.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/spi.cyclo ./Src/spi.d ./Src/spi.o ./Src/spi.su ./Src/spi_bak.cyclo ./Src/spi_bak.d ./Src/spi_bak.o ./Src/spi_bak.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/uart.cyclo ./Src/uart.d ./Src/uart.o ./Src/uart.su
 
 .PHONY: clean-Src
 
