@@ -1,0 +1,10 @@
+/Users/straw/STM32CubeIDE/workspace_1.19.0/17_UART_DMA/chip_headers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Src/uart_dma.c:49:6:uart2_rx_tx_init	8	static
+../Src/uart_dma.c:100:6:dma1_init	8	static
+../Src/uart_dma.c:108:6:dma1_stream5_uart_rx_config	8	static
+../Src/uart_dma.c:151:6:dma1_stream6_uart_tx_config	16	static
+../Src/uart_dma.c:189:17:compute_uart_bd	16	static
+../Src/uart_dma.c:193:13:uart_set_baudrate	16	static
+../Src/uart_dma.c:197:6:DMA1_Stream6_IRQHandler	4	static
+../Src/uart_dma.c:206:6:DMA1_Stream5_IRQHandler	4	static
+../Src/uart_dma.c:215:6:USART2_IRQHandler	4	static

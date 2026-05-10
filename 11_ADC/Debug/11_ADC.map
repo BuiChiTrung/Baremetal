@@ -574,26 +574,26 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .text.adc_read
                 0x08000310       0x24 ./Src/adc.o
                 0x08000310                adc_read
+ .text.main     0x08000334       0x34 ./Src/main.o
+                0x08000334                main
+ .text._read    0x08000368       0x3a ./Src/syscalls.o
+                0x08000368                _read
+ .text._write   0x080003a2       0x38 ./Src/syscalls.o
+                0x080003a2                _write
+ .text._close   0x080003da       0x18 ./Src/syscalls.o
+                0x080003da                _close
+ .text._fstat   0x080003f2       0x20 ./Src/syscalls.o
+                0x080003f2                _fstat
+ .text._isatty  0x08000412       0x16 ./Src/syscalls.o
+                0x08000412                _isatty
+ .text._lseek   0x08000428       0x1a ./Src/syscalls.o
+                0x08000428                _lseek
+ *fill*         0x08000442        0x2 
+ .text._sbrk    0x08000444       0x6c ./Src/sysmem.o
+                0x08000444                _sbrk
  .text.__io_putchar
-                0x08000334       0x18 ./Src/main.o
-                0x08000334                __io_putchar
- .text.main     0x0800034c       0x34 ./Src/main.o
-                0x0800034c                main
- .text._read    0x08000380       0x3a ./Src/syscalls.o
-                0x08000380                _read
- .text._write   0x080003ba       0x38 ./Src/syscalls.o
-                0x080003ba                _write
- .text._close   0x080003f2       0x18 ./Src/syscalls.o
-                0x080003f2                _close
- .text._fstat   0x0800040a       0x20 ./Src/syscalls.o
-                0x0800040a                _fstat
- .text._isatty  0x0800042a       0x16 ./Src/syscalls.o
-                0x0800042a                _isatty
- .text._lseek   0x08000440       0x1a ./Src/syscalls.o
-                0x08000440                _lseek
- *fill*         0x0800045a        0x2 
- .text._sbrk    0x0800045c       0x6c ./Src/sysmem.o
-                0x0800045c                _sbrk
+                0x080004b0       0x18 ./Src/uart.o
+                0x080004b0                __io_putchar
  .text.compute_uart_bd
                 0x080004c8       0x26 ./Src/uart.o
  *fill*         0x080004ee        0x2 
@@ -1026,33 +1026,33 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.macos64_1.0.0.202411102158/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.macos64_1.0.0.202411102158/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/libgcc.a
 
-.debug_info     0x00000000     0x112c
+.debug_info     0x00000000     0x111c
  .debug_info    0x00000000      0x3fc ./Src/adc.o
- .debug_info    0x000003fc      0x139 ./Src/main.o
- .debug_info    0x00000535      0x6a3 ./Src/syscalls.o
- .debug_info    0x00000bd8      0x168 ./Src/sysmem.o
- .debug_info    0x00000d40      0x3bc ./Src/uart.o
- .debug_info    0x000010fc       0x30 ./Startup/startup_stm32f411retx.o
+ .debug_info    0x000003fc      0x102 ./Src/main.o
+ .debug_info    0x000004fe      0x6a3 ./Src/syscalls.o
+ .debug_info    0x00000ba1      0x168 ./Src/sysmem.o
+ .debug_info    0x00000d09      0x3e3 ./Src/uart.o
+ .debug_info    0x000010ec       0x30 ./Startup/startup_stm32f411retx.o
 
-.debug_abbrev   0x00000000      0x5b0
+.debug_abbrev   0x00000000      0x58d
  .debug_abbrev  0x00000000      0x107 ./Src/adc.o
- .debug_abbrev  0x00000107      0x106 ./Src/main.o
- .debug_abbrev  0x0000020d      0x1b6 ./Src/syscalls.o
- .debug_abbrev  0x000003c3       0xbc ./Src/sysmem.o
- .debug_abbrev  0x0000047f      0x10d ./Src/uart.o
- .debug_abbrev  0x0000058c       0x24 ./Startup/startup_stm32f411retx.o
+ .debug_abbrev  0x00000107       0xc5 ./Src/main.o
+ .debug_abbrev  0x000001cc      0x1b6 ./Src/syscalls.o
+ .debug_abbrev  0x00000382       0xbc ./Src/sysmem.o
+ .debug_abbrev  0x0000043e      0x12b ./Src/uart.o
+ .debug_abbrev  0x00000569       0x24 ./Startup/startup_stm32f411retx.o
 
 .debug_aranges  0x00000000      0x178
  .debug_aranges
                 0x00000000       0x30 ./Src/adc.o
  .debug_aranges
-                0x00000030       0x28 ./Src/main.o
+                0x00000030       0x20 ./Src/main.o
  .debug_aranges
-                0x00000058       0xa8 ./Src/syscalls.o
+                0x00000050       0xa8 ./Src/syscalls.o
  .debug_aranges
-                0x00000100       0x20 ./Src/sysmem.o
+                0x000000f8       0x20 ./Src/sysmem.o
  .debug_aranges
-                0x00000120       0x30 ./Src/uart.o
+                0x00000118       0x38 ./Src/uart.o
  .debug_aranges
                 0x00000150       0x28 ./Startup/startup_stm32f411retx.o
 
@@ -1061,13 +1061,13 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_rnglists
                 0x00000000       0x1f ./Src/adc.o
  .debug_rnglists
-                0x0000001f       0x19 ./Src/main.o
+                0x0000001f       0x13 ./Src/main.o
  .debug_rnglists
-                0x00000038       0x79 ./Src/syscalls.o
+                0x00000032       0x79 ./Src/syscalls.o
  .debug_rnglists
-                0x000000b1       0x13 ./Src/sysmem.o
+                0x000000ab       0x13 ./Src/sysmem.o
  .debug_rnglists
-                0x000000c4       0x20 ./Src/uart.o
+                0x000000be       0x26 ./Src/uart.o
  .debug_rnglists
                 0x000000e4       0x19 ./Startup/startup_stm32f411retx.o
 
@@ -1146,19 +1146,19 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
 
 .debug_line     0x00000000     0x1f32
  .debug_line    0x00000000      0x555 ./Src/adc.o
- .debug_line    0x00000555      0x67d ./Src/main.o
- .debug_line    0x00000bd2      0x840 ./Src/syscalls.o
- .debug_line    0x00001412      0x51c ./Src/sysmem.o
- .debug_line    0x0000192e      0x589 ./Src/uart.o
+ .debug_line    0x00000555      0x663 ./Src/main.o
+ .debug_line    0x00000bb8      0x840 ./Src/syscalls.o
+ .debug_line    0x000013f8      0x51c ./Src/sysmem.o
+ .debug_line    0x00001914      0x5a3 ./Src/uart.o
  .debug_line    0x00001eb7       0x7b ./Startup/startup_stm32f411retx.o
 
 .debug_str      0x00000000    0x55b86
  .debug_str     0x00000000    0x55b86 ./Src/adc.o
                               0x5002a (size before relaxing)
- .debug_str     0x00055b86    0x53962 ./Src/main.o
+ .debug_str     0x00055b86    0x5394a ./Src/main.o
  .debug_str     0x00055b86     0x99f8 ./Src/syscalls.o
  .debug_str     0x00055b86     0x7796 ./Src/sysmem.o
- .debug_str     0x00055b86    0x4f890 ./Src/uart.o
+ .debug_str     0x00055b86    0x4f89d ./Src/uart.o
  .debug_str     0x00055b86       0x77 ./Startup/startup_stm32f411retx.o
 
 .comment        0x00000000       0x43
@@ -1171,10 +1171,10 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
 
 .debug_frame    0x00000000      0xbf0
  .debug_frame   0x00000000       0x70 ./Src/adc.o
- .debug_frame   0x00000070       0x50 ./Src/main.o
- .debug_frame   0x000000c0      0x2ac ./Src/syscalls.o
- .debug_frame   0x0000036c       0x34 ./Src/sysmem.o
- .debug_frame   0x000003a0       0x7c ./Src/uart.o
+ .debug_frame   0x00000070       0x2c ./Src/main.o
+ .debug_frame   0x0000009c      0x2ac ./Src/syscalls.o
+ .debug_frame   0x00000348       0x34 ./Src/sysmem.o
+ .debug_frame   0x0000037c       0xa0 ./Src/uart.o
  .debug_frame   0x0000041c      0x144 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.macos64_1.0.0.202411102158/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
  .debug_frame   0x00000560       0x34 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.macos64_1.0.0.202411102158/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
  .debug_frame   0x00000594       0x6c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.macos64_1.0.0.202411102158/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-printf.o)

@@ -1,0 +1,136 @@
+CompileFlags:
+  Add:
+    - "--target=arm-none-eabi"
+    - "-std=gnu11"
+    - "-DDEBUG"
+    - "-DSTM32"
+    - "-DSTM32F4"
+    - "-DSTM32F411RETx"
+    - "-DSTM32F411xE"
+    - "-DNUCLEO_F411RE"
+    - "-isystem"
+    - "/Applications/ARM/lib/gcc/arm-none-eabi/10.3.1/include"
+    - "-isystem"
+    - "/Applications/ARM/lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+    - "-isystem"
+    - "/Applications/ARM/arm-none-eabi/include"
+
+---
+If:
+  PathMatch: 10_UASRT2/.*
+CompileFlags:
+  Add:
+    - "-I10_UASRT2/Inc"
+    - "-I10_UASRT2/chip_headers/CMSIS/Include"
+    - "-I10_UASRT2/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 11_ADC/.*
+CompileFlags:
+  Add:
+    - "-I11_ADC/Inc"
+    - "-I11_ADC/chip_headers/CMSIS/Include"
+    - "-I11_ADC/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 12_SPI/.*
+CompileFlags:
+  Add:
+    - "-I12_SPI/Inc"
+    - "-I12_SPI/chip_headers/CMSIS/Include"
+    - "-I12_SPI/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 14_EXTI/.*
+CompileFlags:
+  Add:
+    - "-I14_EXTI/Inc"
+    - "-I14_EXTI/chip_headers/CMSIS/Include"
+    - "-I14_EXTI/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 15_RTC/.*
+CompileFlags:
+  Add:
+    - "-I15_RTC/Inc"
+    - "-I15_RTC/chip_headers/CMSIS/Include"
+    - "-I15_RTC/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 16_IWDG/.*
+CompileFlags:
+  Add:
+    - "-I16_IWDG/Inc"
+    - "-I16_IWDG/chip_headers/CMSIS/Include"
+    - "-I16_IWDG/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 17_ADC_DMA/.*
+CompileFlags:
+  Add:
+    - "-I17_ADC_DMA/Inc"
+    - "-I17_ADC_DMA/chip_headers/CMSIS/Include"
+    - "-I17_ADC_DMA/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 17_UART_DMA/.*
+CompileFlags:
+  Add:
+    - "-I../Inc"
+    - "-I../chip_headers/CMSIS/Include"
+    - "-I../chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 6_CMSIS_Header_files/.*
+CompileFlags:
+  Add:
+    - "-I6_CMSIS_Header_files/Inc"
+    - "-I6_CMSIS_Header_files/chip_headers/CMSIS/Include"
+    - "-I6_CMSIS_Header_files/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 7_GPIO_Input_Output/.*
+CompileFlags:
+  Add:
+    - "-I7_GPIO_Input_Output/Inc"
+    - "-I7_GPIO_Input_Output/chip_headers/CMSIS/Include"
+    - "-I7_GPIO_Input_Output/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 8_System_timer/.*
+CompileFlags:
+  Add:
+    - "-I8_System_timer/Inc"
+    - "-I8_System_timer/chip_headers/CMSIS/Include"
+    - "-I8_System_timer/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: 9_TIM2/.*
+CompileFlags:
+  Add:
+    - "-I9_TIM2/Inc"
+    - "-I9_TIM2/chip_headers/CMSIS/Include"
+    - "-I9_TIM2/chip_headers/CMSIS/Device/ST/STM32F4xx/Include"
+
+---
+If:
+  PathMatch: ManipulateLED/.*
+CompileFlags:
+  Add:
+    - "-DUSE_HAL_DRIVER"
+    - "-IManipulateLED/Core/Inc"
+    - "-IManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc"
+    - "-IManipulateLED/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+    - "-IManipulateLED/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+    - "-IManipulateLED/Drivers/CMSIS/Include"

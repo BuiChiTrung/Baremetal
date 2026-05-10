@@ -1,6 +1,4 @@
-"./Src/exti.o"
-"./Src/gpio.o"
-"./Src/iwdg.o"
+"./Src/adc_dma.o"
 "./Src/main.o"
 "./Src/syscalls.o"
 "./Src/sysmem.o"
