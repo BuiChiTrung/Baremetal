@@ -5,25 +5,28 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Src/gpio_exti.c \
 ../Src/main.c \
+../Src/standby_mode.c \
 ../Src/syscalls.c \
 ../Src/sysmem.c \
-../Src/uart.c \
-../Src/uart_dma.c 
+../Src/uart.c 
 
 OBJS += \
+./Src/gpio_exti.o \
 ./Src/main.o \
+./Src/standby_mode.o \
 ./Src/syscalls.o \
 ./Src/sysmem.o \
-./Src/uart.o \
-./Src/uart_dma.o 
+./Src/uart.o 
 
 C_DEPS += \
+./Src/gpio_exti.d \
 ./Src/main.d \
+./Src/standby_mode.d \
 ./Src/syscalls.d \
 ./Src/sysmem.d \
-./Src/uart.d \
-./Src/uart_dma.d 
+./Src/uart.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -33,7 +36,7 @@ Src/%.o Src/%.su Src/%.cyclo: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/uart.cyclo ./Src/uart.d ./Src/uart.o ./Src/uart.su ./Src/uart_dma.cyclo ./Src/uart_dma.d ./Src/uart_dma.o ./Src/uart_dma.su
+	-$(RM) ./Src/gpio_exti.cyclo ./Src/gpio_exti.d ./Src/gpio_exti.o ./Src/gpio_exti.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/standby_mode.cyclo ./Src/standby_mode.d ./Src/standby_mode.o ./Src/standby_mode.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/uart.cyclo ./Src/uart.d ./Src/uart.o ./Src/uart.su
 
 .PHONY: clean-Src
 

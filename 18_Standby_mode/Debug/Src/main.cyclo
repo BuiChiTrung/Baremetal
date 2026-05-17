@@ -1,0 +1,4 @@
+../Src/main.c:19:5:main	1
+../Src/main.c:38:13:check_reset_source	4
+../Src/main.c:64:13:exti_callback	1
+../Src/main.c:71:6:EXTI15_10_IRQHandler	2

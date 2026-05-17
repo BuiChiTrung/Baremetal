@@ -1,0 +1,4 @@
+../Src/standby_mode.c:7:6:wakeup_pin_init	1
+../Src/standby_mode.c:20:6:standby_wakeup_pin_setup	2
+../Src/standby_mode.c:44:10:get_wakeup_pin_state	1
+../Src/standby_mode.c:46:13:set_power_mode	1
